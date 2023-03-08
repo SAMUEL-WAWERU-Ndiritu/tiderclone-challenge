@@ -1,0 +1,34 @@
+.tinderCard__item{
+    position: relative;
+}
+.tinderCard{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    padding-right: 100px;
+    justify-content: center;
+    height: 50vh;
+}
+.card{
+    position: absolute;
+    width:400px;
+    height:40vh;
+    display: flex;
+    align-items: flex-end;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    border-radius: 30px;
+    box-shadow: 0px 10px 10px rgba(0,0,0,1);
+    /* box-shadow: 0; */
+}
+.card > h4{
+    color: white;
+    padding-left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 20px;
+
+}
+

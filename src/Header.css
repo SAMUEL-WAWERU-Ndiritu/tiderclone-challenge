@@ -1,0 +1,14 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 10px; */
+    border-bottom: 0.5px solid rgb(241, 236, 236);
+}
+.header > img {
+    height:40px;
+    object-fit: contain;
+}
+.header__icon{
+    padding: 20px;
+}
